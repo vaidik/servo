@@ -23,6 +23,10 @@ On OS X (MacPorts):
 On Debian-based Linuxes:
 
     sudo apt-get install autoconf2.13 freeglut3-dev libtool
+    
+On Fedora:
+
+    sudo yum install autoconf213 freeglut-devel libtool
 
 Servo builds its own copy of Rust, so there is no need to provide a Rust
 compiler.
